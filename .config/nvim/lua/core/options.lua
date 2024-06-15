@@ -6,6 +6,12 @@ local opts = {
 	termguicolors = true,
 	number = true,
 	relativenumber = true,
+        cursorline = true,
+        cursorcolumn = true,
+        textwidth = 100,
+        autowrite = true,
+        confirm = true,
+        autochdir = true,
 }
 
 -- Set options from table

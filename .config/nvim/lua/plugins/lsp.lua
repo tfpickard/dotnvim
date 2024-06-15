@@ -1,4 +1,4 @@
--- LSP Configuration & Plugins
+-- -_language_server- LSP Configuration & Plugins
 return {
 	{
 		"neovim/nvim-lspconfig",
@@ -21,6 +21,23 @@ return {
 				ensure_installed = {
 					"lua_ls",
 					"pylsp",
+					"arduino_language_server",
+					"bashls",
+					"clangd",
+					-- "clang_format",
+					"cmake",
+					-- "cpplint",
+					-- "cpptools",
+					"gopls",
+					"html",
+					-- "isort",
+					"jsonls",
+					"markdown_oxide",
+					"mesonlsp",
+					-- "prettier",
+					-- "shfmt",
+					"yamlls",
+
 				},
 				automatic_installation = true,
 			})
