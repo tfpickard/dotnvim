@@ -1,4 +1,4 @@
--- Fancier statusline
+
 return {
 	"nvim-lualine/lualine.nvim",
 	config = function()
@@ -8,8 +8,10 @@ return {
 			options = {
 				icons_enabled = true,
 				theme = lualine_theme,
-				component_separators = "|",
-				section_separators = "",
+				-- component_separators = "╠══╣",
+				-- component_separators = "╠╣┊",
+				component_separators = " ⛧ ",
+				section_separators = " ",
 			},
 		})
 	end,
